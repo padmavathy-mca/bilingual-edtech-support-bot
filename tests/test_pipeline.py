@@ -73,8 +73,17 @@ def test_confident_answer_has_source_and_is_cached():
 
 def test_uncertain_zone_asks_to_confirm_and_is_not_cached():
     r = FakeRetriever(0.82); cache = SemanticCache(r)
-    a = pipeline.answer("something vague", 1, r, cache)
+    a = pipeline.answer("download certificate", 1, r, cache)
     assert a["action"] == "confirm" and len(cache.vecs) == 0
+
+def test_confirm_zone_without_shared_words_falls_back():
+    for q in ["best biryani recipe", "சிக்கன் பிரியாணி செய்வது எப்படி"]:
+        res, _ = ask(q, score=0.82)
+        assert res["action"] == "fallback" and res["escalated"], q
+
+def test_confident_zone_is_not_touched_by_lexical_gate():
+    res, _ = ask("something unusual", score=0.9)
+    assert res["action"] == "answer"
 
 def test_low_confidence_falls_back_to_human():
     res, _ = ask("what is the capital of France?", score=0.78)
