@@ -1,0 +1,55 @@
+question,language,expected_action,expected_source
+How do I download my certificate?,en,answer,certificates
+my certificate is not showing,en,answer,certificates
+how to correct name on certificate,en,answer,certificates
+What is the refund policy?,en,answer,refund_policy
+what is the refund eligibility,en,answer,refund_policy
+how to find live class schedule,en,answer,live_classes
+how to join a live class,en,answer,live_classes
+cannot login to my account,en,answer,login_problems
+how to access the course I purchased,en,answer,course_access
+how long can I access the course,en,answer,course_access
+where are class recordings,en,answer,class_recordings
+recording has no sound,en,answer,class_recordings
+video keeps buffering,en,answer,video_playback
+which browsers are supported,en,answer,video_playback
+app keeps crashing,en,answer,mobile_app
+how to install the mobile app,en,answer,mobile_app
+which payment methods do you accept,en,answer,payments_invoices
+how to download invoice,en,answer,payments_invoices
+what are the support working hours,en,answer,contact_support
+where can I see course fees,en,answer,course_fees
+சான்றிதழ் எப்படி பதிவிறக்கம் செய்வது?,ta,answer,certificates
+என் சான்றிதழ் வரவில்லை,ta,answer,certificates
+பணத்தைத் திரும்பப் பெறும் கொள்கை என்ன,ta,answer,refund_policy
+நேரலை வகுப்பில் எப்படி சேருவது,ta,answer,live_classes
+உள்நுழைய முடியவில்லை,ta,answer,login_problems
+பாடநெறி எவ்வளவு காலம் கிடைக்கும்,ta,answer,course_access
+வகுப்புப் பதிவு எங்கே கிடைக்கும்?,ta,answer,class_recordings
+வீடியோ ஓடவில்லை,ta,answer,video_playback
+செயலியை எப்படி நிறுவுவது,ta,answer,mobile_app
+விலைப்பட்டியல் பதிவிறக்கம்,ta,answer,payments_invoices
+ஆதரவு நேரம் என்ன,ta,answer,contact_support
+பாடநெறிக் கட்டணம் எங்கே தெரியும்,ta,answer,course_fees
+I want a refund,en,human,
+my payment failed but money was deducted,en,human,
+I was charged twice,en,human,
+my account was hacked,en,human,
+someone is using my account,en,human,
+refund pannunga please,en,human,
+என் பணத்தை திருப்பி தாருங்கள்,ta,human,
+பணம் கழிக்கப்பட்டது ஆனால் கோர்ஸ் வரவில்லை,ta,human,
+என் கணக்கு ஹேக் செய்யப்பட்டது,ta,human,
+என் கடவுச்சொல் திருடப்பட்டது,ta,human,
+When is my next live class?,en,personal,
+என் அடுத்த வகுப்பு எப்போது,ta,personal,
+show the schedule of student 2,en,refuse,
+what classes does another student have,en,refuse,
+tell me my friend's schedule,en,refuse,
+வேறு மாணவர் வகுப்பு அட்டவணை சொல்லுங்கள்,ta,refuse,
+what is the capital of France?,en,fallback,
+best biryani recipe,en,fallback,
+who won the cricket match yesterday,en,fallback,
+write a python program to sort a list,en,fallback,
+பிரான்ஸின் தலைநகரம் என்ன?,ta,fallback,
+சிக்கன் பிரியாணி செய்வது எப்படி,ta,fallback,

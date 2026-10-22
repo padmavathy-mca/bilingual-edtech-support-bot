@@ -1,0 +1,11 @@
+sentence-transformers
+faiss-cpu
+numpy
+fastapi
+uvicorn
+pydantic
+pyjwt
+streamlit
+requests
+pytest
+pandas
